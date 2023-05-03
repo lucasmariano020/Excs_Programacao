@@ -1,0 +1,15 @@
+#include <stdio.h>
+int i = 0, num = 0;
+float resto = 0;
+int main()
+{
+    for (i=1000; num < 6; i++)
+     {
+       resto = i%11;
+       if(resto == 5)
+        {
+          num++;
+          printf("%d\n", i-1);
+        }
+     }
+}

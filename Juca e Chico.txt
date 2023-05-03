@@ -1,0 +1,15 @@
+#include <stdio.h>
+int i = 0, anos = 0;
+float altJuca = 1.10, altChico = 1.50;
+
+int main()
+ {
+    for(i=0; altJuca<=altChico;i++)
+        {
+            altChico = altChico + (0.02*i);
+            altJuca = altJuca + (0.03*i);
+        }
+    printf("Anos para Juca ser maior que Chico: %d\n", i);
+    printf("%f\n", altJuca);
+    printf("%f\n", altChico);
+ }

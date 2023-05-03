@@ -1,0 +1,14 @@
+#include <stdio.h>
+int num = 0.00, i = 0.00;
+int main()
+ {
+    scanf("%d", &num);
+    for (i=2; i<num; i++)
+        {
+         float resto = num%i;
+          if(resto == 0)
+             printf("O numero nao e primo");
+             return (0);
+        }
+    printf("O numero e primo");
+ }
